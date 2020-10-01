@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">FOOD AAP</string>
+    <string name="open_drawer">OPEN</string>
+    <string name="close_drawer">CLOSE</string>
+    <string name="enter_pasaword">enter pasaword</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_number">Enter your number</string>
+    <string name="name">Name</string>
+    <string name="name_min_20caracter">Name(Min.20Caracter)</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="passwoard_min_4chararcter">Passwoard(Min. 4chararcter)</string>
+    <string name="confirmpasswpord">ConfirmPasswpord</string>
+    <string name="mobile_number_10_digit">Mobile Number(10 digit)</string>
+    <string name="email_address">Email Address</string>
+    <string name="preferences">Preferences</string>
+    <string name="pref_name">Shared</string>
+
+    <string name="mobile_number_10_digits">Mobile Number(10 digits)</string>
+    <string name="enter_your_register_mobile_number_and_email_below">Enter your register mobile number and email below</string>
+    <string name="email">EMAIL</string>
+    <string name="login">LOGIN</string>
+    <string name="next">Next</string>
+    <string name="enter_the_received_otp_below">Enter the received OTP Below</string>
+    <string name="home">Home</string>
+    <string name="favriout_restaurent">FavrioutRestaurent</string>
+    <string name="favriout_restaurentt">Favriout_Restaurent</string>
+    <string name="order_history">Order_History</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="price_299">price 299</string>
+    <string name="_300_person">$300/person</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+    <string name="choose_from_menu_listed_belosw">Choose from menu listed below</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="button">Button</string>
+    <string name="ordering_form">Ordering Form</string>
+    <string name="confirm_order">CONFIRM_ORDER</string>
+    <string name="ordering_from">Ordering From :</string>
+    <string name="your_order_have_been_placed_successfully">Your order Have been placed successfully</string>
+    <string name="faq_answer_six">Faq Answer Six</string>
+    <string name="faq_answer_five">Faq Answer Five</string>
+    <string name="faq_answer_four">Faq Answer Four</string>
+    <string name="faq_answer_three">Faq Answer Three</string>
+    <string name="faq_answer_two">"Faq Answer Two "</string>
+    <string name="faq_answer_one">Faq Answer Onw</string>
+    <string name="q_6_when_will_i_get_the_certificate">Q.6 When will I get the certificate?</string>
+    <string name="q_5_when_can_i_start_my_training">Q.5 When can I start my training?</string>
+    <string name="q_4_how_much_time_should_i_spend_everyday">Q.4 How much time should I spend everyday?</string>
+    <string name="q_3_what_is_the_duration_of_training">Q.3 What is the duration of training?</string>
+    <string name="q_1_how_will_the_training_be_delivered">Q.1 How will the training be delivered?</string>
+    <string name="q_2_what_will_be_the_timings_of_the_training">Q.2 What will be the timings of the training?</string>
+    <string name="your_previous_orders_are_listed_below">Your previous orders are listed Below:</string>
+    <string name="date">Date</string>
+    <string name="resname">resName</string>
+    <string name="no_orders">Order Place</string>
+    <string name="no_order">No order</string>
+    <string name="dummy_date">Dummy Date</string>
+    <string name="order_history_static_text">Order Hostory</string>
+    <string name="as">as</string>
+    <string name="log_out">Log Out</string>
+    <string name="faqs">FAQs</string>
+</resources>

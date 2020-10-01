@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".utill.ForgotActivity">
+    <ImageView
+        android:padding="4dp"
+        android:layout_width="160dp"
+        android:id="@+id/imgLogo"
+        android:layout_height="160dp"
+        android:src="@drawable/soo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+
+        />
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:id="@+id/toolBar"
+    />
+    <TextView
+        android:id="@+id/txtDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:text="@string/enter_your_register_mobile_number_and_email_below"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        android:layout_marginTop="65dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etForgotMobile"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+
+
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:hint="Mobile Number(10 digit)"
+        android:maxLength="10"
+        android:paddingStart="4dp"
+        android:drawableStart="@drawable/ic_action_mobilenumber"
+        />
+    <EditText
+        android:id="@+id/etForgotEmail"
+        android:layout_below="@+id/etForgotMobile"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+
+android:maxLength="29"
+        android:layout_centerInParent="true"
+        android:hint="@string/email_address"
+        android:layout_marginTop="9dp"
+        android:paddingStart="4dp"
+        android:drawableStart="@drawable/ic_action_email"
+        />
+    <Button
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etForgotEmail"
+
+        android:layout_marginTop="48dp"
+        android:padding="6dp"
+android:layout_marginLeft="10dp"
+        android:text="@string/next"
+        android:background="@color/colorAccents"
+        android:textSize="19sp"
+        android:textColor="#fff"
+        android:id="@+id/btnNext"
+        />
+
+
+</RelativeLayout>

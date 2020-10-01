@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".utill.RegisterActivity"
+    android:orientation="vertical"
+    android:background="@color/colorAccents"
+
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="#ffffff"
+        />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:hint="@string/name_min_20caracter"
+        android:drawableStart="@drawable/ic_action_name"
+        android:background="#ffffff"
+        android:padding="6dp"
+
+        android:maxLength="20"
+        android:importantForAutofill="no"
+        android:backgroundTintMode="multiply"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email_address"
+        android:drawableStart="@drawable/ic_action_email"
+        android:background="#ffffff"
+        android:padding="6dp"
+        android:importantForAutofill="no"
+        android:maxLength="40"
+        android:inputType="textEmailAddress"/>
+
+
+
+    <EditText
+        android:id="@+id/etnumber"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="@string/mobile_number_10_digit"
+        android:drawableStart="@drawable/ic_action_mobilenumber"
+        android:background="#ffffff"
+        android:padding="6dp"
+        android:maxLength="10"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="@string/delivery_address"
+        android:drawableStart="@drawable/ic_action_location"
+        android:background="#ffffff"
+        android:padding="6dp"
+        android:importantForAutofill="no"
+        android:inputType="textLongMessage" />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="@string/passwoard_min_4chararcter"
+        android:drawableStart="@drawable/ic_action_lock"
+        android:background="#ffffff"
+        android:padding="6dp"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/etCpassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="@string/confirmpasswpord"
+        android:drawableStart="@drawable/ic_action_lock"
+        android:background="#ffffff"
+        android:padding="6dp"
+        android:autofillHints=""
+        android:maxLength="6"
+        android:inputType="numberPassword" />
+
+<Button
+    android:layout_width="370dp"
+    android:background="@color/red"
+    android:text="Refister"
+    android:layout_height="wrap_content"
+android:layout_marginTop="23dp"
+    android:textSize="22sp"
+    android:textColor="#ffff"
+android:layout_gravity="center_horizontal"
+    android:id="@+id/btnReg"/>
+
+</LinearLayout>

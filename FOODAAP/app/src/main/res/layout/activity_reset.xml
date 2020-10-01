@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".utill.ResetActivity">
+   <ImageView
+       android:layout_width="160dp"
+       android:layout_height="160dp"
+   android:src="@drawable/otp"
+       android:layout_centerHorizontal="true"
+android:layout_marginTop="78dp"
+       android:id="@+id/imgOtp"
+       />
+
+    <TextView
+        android:layout_below="@+id/imgOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:text="@string/enter_the_received_otp_below"
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:hint="Otp(4character)"
+        android:id="@+id/etOtp"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/colorAccents"
+        /><EditText
+    android:id="@+id/etNewpassword"
+ android:layout_below="@+id/etOtp"
+    android:layout_width="389dp"
+    android:hint="New password(Min 4 character)"
+    android:layout_height="wrap_content"
+   android:maxLength="6"
+    android:layout_centerInParent="true"
+    android:backgroundTint="@color/colorAccents"
+  android:inputType="numberPassword"
+    /><EditText
+   android:hint="Confirm password"
+    android:id="@+id/etConfirmPassword"
+    android:maxLength="6"
+    android:layout_width="389dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@+id/etNewpassword"
+    android:backgroundTint="@color/colorAccents"
+    android:inputType="numberPassword"
+    />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etConfirmPassword"
+        android:layout_marginTop="23dp"
+        android:background="@color/colorAccents"
+android:text="Submit"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="19dp"/>
+
+
+
+</RelativeLayout>

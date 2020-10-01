@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".utill.SplashActivity"
+android:background="#ffffff"
+    >
+
+
+
+
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="150dp"
+
+
+android:layout_marginLeft="126dp"
+        android:src="@drawable/soo"
+
+android:layout_marginTop="231dp"
+
+        app:civ_shadow_color="@color/black"
+        app:civ_shadow_radius="4dp"
+        app:civ_shadow="true"
+
+        />
+    <TextView
+    android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From "
+android:layout_centerHorizontal="true"
+        android:layout_above="@+id/txtbrand"
+        android:textStyle="bold"
+android:layout_gravity="center"
+        android:layout_marginTop="290dp"
+        android:textSize="14sp"/>
+
+<TextView
+    android:id="@+id/txtbrand"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:layout_marginBottom="57dp"
+    android:textSize="15sp"
+ android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"
+    android:text="FOOD HAPPY"
+    android:layout_gravity="center"
+    android:textColor="#01fb47"/>
+
+</RelativeLayout>
+
+
+

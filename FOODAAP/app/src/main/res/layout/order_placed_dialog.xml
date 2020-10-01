@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    >
+
+    <ImageView
+        android:id="@+id/imgTick"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="23dp"
+        android:src="@drawable/tichvh"/>
+
+    <TextView
+        android:id="@+id/txtConfirmOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_order_have_been_placed_successfully"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_below="@+id/imgTick"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@color/colorAccents"
+        android:text="OK"
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="4dp"
+        android:layout_margin="12dp"
+        android:padding="4dp"/>
+
+
+
+</RelativeLayout>

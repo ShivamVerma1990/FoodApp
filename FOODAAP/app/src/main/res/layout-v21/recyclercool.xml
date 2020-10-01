@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    app:cardCornerRadius="8dp"
+app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/black"
+android:animationCache="true"
+    app:cardMaxElevation="1dp"
+    app:cardUseCompatPadding="true"
+android:backgroundTintMode="multiply"
+    android:background="@color/black">
+
+    <LinearLayout
+
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+
+        android:weightSum="6">
+        <ImageView
+            android:layout_weight="1.5"
+            android:id="@+id/imgImage"
+
+            android:layout_width="25dp"
+            android:layout_height="117dp"
+
+            android:layout_marginTop="8dp"
+            android:fadingEdge="horizontal"
+android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+android:focusable="true"
+style="@style/Base.CardView"
+
+            android:padding="6dp"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <RelativeLayout
+            android:layout_weight="3.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+              android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Name of the Restaurent"
+                android:padding="8dp"
+                android:textSize="19sp"/>
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/_300_person"
+                android:padding="8dp"
+                android:layout_below="@id/txtName"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#357a38"/>
+        </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1.2"
+    >
+        <TextView
+            android:id="@+id/txtRating"
+
+            android:layout_width="wrap_content"
+
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+android:layout_marginTop="23dp"
+   android:layout_centerHorizontal="true"
+            android:textColor="#ffca28"
+            android:text="4.5"
+            android:drawablePadding="4dp"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+<ImageView
+    android:id="@+id/imgLove"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_fa"
+android:layout_below="@+id/txtRating"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="12dp"/>
+
+</RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
